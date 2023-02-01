@@ -9,7 +9,7 @@ public class Prime {
         // All even numbers can't be prime numbers.
         if(x % 2 == 0 || x == 1) return false;
 
-        //Checking potential odd numbers which might be prime numbers
+        //Checking potential odd numbers which might be prime numbers.
         //Using square root to make code more effecient deu to the associative law.
         for (int i = 3; i <= Math.sqrt(x) ; i+= 2) {
             if (x % i == 0) {
