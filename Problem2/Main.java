@@ -14,7 +14,7 @@ public class Main {
             if (a % 2 ==0) 
                 sum += a;
                 
-        //I only need 'a' coz I'm swapping its value with the rest.(b and c)
+        //I only need 'a' coz I'm swapping its value with the rest.(b and c).
             c = a + b;
             a = b;
             b = c;
