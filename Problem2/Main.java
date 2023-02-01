@@ -14,7 +14,7 @@ public class Main {
             if (a % 2 ==0) 
                 sum += a;
                 
-        //System.out.print(a +  ", "); I only need a coz I'm swapping its value with the rest.
+        //I only need 'a' coz I'm swapping its value with the rest.(b and c)
             c = a + b;
             a = b;
             b = c;
