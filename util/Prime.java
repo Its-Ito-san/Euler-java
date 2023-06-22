@@ -17,6 +17,19 @@ public class Prime {
             }
         }
 
+
         return true;
+    }
+
+    public static long nextPrime(long x) {
+        long n = x+1;
+
+        while (true) {
+
+            if(isPrime(n)){
+                return n;
+            }
+            n++;
+        }
     }
 }
