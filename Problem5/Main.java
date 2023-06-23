@@ -6,7 +6,7 @@ public class Main {
         float i;
         float div;
         
-        for(i=2520; i<=10000000; i++){
+        for(i=2520; i<=100000000; i++){
 
             boolean hasReminder = false;
 
